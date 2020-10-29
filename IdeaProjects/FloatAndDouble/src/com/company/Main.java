@@ -21,5 +21,11 @@ public class Main {
         System.out.println("MyIntValue = " +myIntValue);
         System.out.println("MyFloatValue = " +myFloatValue);
         System.out.println("MyDoubleValue = " +myDoubleValue);
+
+        System.out.println("Converting Pound to Kilograms");
+
+        double myPound = 200d;
+        double myKG = (myPound * 0.45359237d);
+        System.out.println("Converted value = " + myKG);
     }
 }
