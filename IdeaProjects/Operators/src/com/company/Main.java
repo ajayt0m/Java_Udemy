@@ -86,6 +86,19 @@ public class Main {
             System.out.println("This is also correct");
         }
 
+        if(isCar)
+        {
+            System.out.println("This is correct");
+        }
+
+        isCar = true;
+        int wasCar = isCar ? 1 : 2; /* isCar is checked and if its true,
+        value 1 is assigned to wasCar. If its false, then value 2 is assigned to wasCar */
+        System.out.println(wasCar);
+
+
+
+
 
     }
 }
