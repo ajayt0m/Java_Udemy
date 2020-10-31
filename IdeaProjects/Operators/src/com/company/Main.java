@@ -96,6 +96,18 @@ public class Main {
         value 1 is assigned to wasCar. If its false, then value 2 is assigned to wasCar */
         System.out.println(wasCar);
 
+        double myDouble = 20.00d ;
+        double mySecondDouble = 80.00d;
+        double addandmultiply = (myDouble + mySecondDouble) * 100.00d;
+        System.out.println("add and multiply = " + addandmultiply);
+        double remainder = addandmultiply % 40.00d;
+        System.out.println("The remainder = " + remainder);
+        boolean myBoolean = (remainder == 0) ? true : false;
+        System.out.println("myBoolean = " + myBoolean );
+        if (myBoolean != true)
+        {
+            System.out.println("Got some remainder");
+        }
 
 
 
