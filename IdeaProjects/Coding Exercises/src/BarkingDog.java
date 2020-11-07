@@ -7,6 +7,7 @@ public class BarkingDog {
                 }
                 else {
                     return false;
+
                 }
             }
             else{
