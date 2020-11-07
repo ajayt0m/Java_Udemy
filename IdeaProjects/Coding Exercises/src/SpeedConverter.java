@@ -3,8 +3,7 @@ public class SpeedConverter {
         if (kilometersPerHour < 0) {
             return -1;
         } else {
-            long miles = Math.round(kilometersPerHour/1.609);
-            return miles;
+            return (Math.round(kilometersPerHour/1.609));
         }
     }
     public static void printConversion(double kilometersPerHour){
