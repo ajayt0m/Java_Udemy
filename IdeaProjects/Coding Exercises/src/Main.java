@@ -21,6 +21,6 @@ public class Main {
         System.out.println(EqualSumChecker.hasEqualSum(1,1,2));
 
         //TeenNumberChecker
-        System.out.println(TeenNumberChecker.isTeen());
+        System.out.println(TeenNumberChecker.isTeen(14));
     }
 }
