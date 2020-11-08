@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args){
         System.out.println(calcFeetAndInchesToCentimeters(14));
         calcFeetAndInchesToCentimeters(13, 1);
-        calcFeetAndInchesToCentimeters(156);
+        calcFeetAndInchesToCentimeters(157);
 
     }
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
