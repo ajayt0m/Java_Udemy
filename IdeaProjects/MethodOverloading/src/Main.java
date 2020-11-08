@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args){
         System.out.println(calcFeetAndInchesToCentimeters(14));
-        calcFeetAndInchesToCentimeters(0, 1);
-        calcFeetAndInchesToCentimeters(1);
+        calcFeetAndInchesToCentimeters(13, 1);
+        calcFeetAndInchesToCentimeters(156);
 
     }
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
@@ -24,7 +24,9 @@ public class Main {
 
     public static double calcFeetAndInchesToCentimeters(double inches){
         if(inches >= 0){
-            System.out.println(inches + " inches = " + (inches/12) + " Feet");
+            double feet = (int) (inches / 12);
+            double inches2 = (int) (inches % 12);
+            System.out.println(inches + " inches = " + feet + " Feet " + inches2 + " inches");
             return (inches / 12);
         }
         else {
